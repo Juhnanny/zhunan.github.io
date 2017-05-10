@@ -1,0 +1,171 @@
+body,ul,li{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.calendar{
+	width: 290px;
+	height: 280px;
+	padding: 10px;
+	margin: 20px auto;
+	border: 2px solid #4EAFF0;
+}
+
+.head{
+	width: 290px;
+	height: 40px;
+	border-bottom: 1px solid #4EAFF0;
+	position: relative;
+}
+
+.head #year{
+	display: inline-block;
+	width: 75px;
+	height: 25px;
+	line-height: 25px;
+	background-image: url(/Users/zhunan/Desktop/日历插件demo/images/down.png);
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+	border-top: 1px solid #1F1C1C;
+	border-left: 1px solid #1F1C1C;
+	border-bottom: 1px solid #AEAEAE;
+	border-right: 1px solid #AEAEAE;
+	font-size: 14px;
+	font-family: arial;
+	padding-left: 10px;
+	text-align: left;
+	margin-right: 12px;
+}
+
+.head .year-list{
+	width: 85px;
+	height: 200px;
+	overflow: auto;
+	position: absolute;
+	left: 0;
+	top: 27px;
+	border: 1px solid #AEAEAE;
+	border-top: none;
+	background-color: #fff;
+	display: none;
+}
+
+.head .year-list li{
+	height: 25px;
+	line-height: 25px;
+	padding-left: 10px;
+	font-size: 14px;
+	font-family: arial;
+}
+
+
+.head #cur_month{
+	display: inline-block;
+	width: 71.5px;
+	height: 25px;
+	line-height: 25px;
+	border-top: 1px solid #1F1C1C;
+	border-left: 1px solid #1F1C1C;
+	border-bottom: 1px solid #AEAEAE;
+	border-right: 1px solid #AEAEAE;
+	font-size: 14px;
+	font-family: arial;
+	padding-right: 13.5px;
+	text-align: center;
+	margin-right: 12px;
+    background-image: url(/Users/zhunan/Desktop/日历插件demo/images/down.png);
+    background-repeat: no-repeat;
+    background-position: 96% 50%;
+}
+
+.head .month-list{
+	width: 85px;
+	height: 200px;
+	overflow: auto;
+	position: absolute;
+	left: 103px;
+	top: 27px;
+	border: 1px solid #AEAEAE;
+	border-top: none;
+	background-color: #fff;
+	display: none;
+}
+
+.head .month-list li{
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+	font-family: arial;
+	text-align: center;
+}
+
+.head li:hover{
+	background-color: #999;
+}
+
+.head .back{
+	display: inline-block;
+	width: 80px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+	font-family: arial;
+	border: 1px solid #CACACA;
+	text-align: center;
+}
+
+.head .back:hover{
+	border: 1px solid #2953F6;
+}
+
+
+.body{
+	width: 290px;
+	height: 240px;
+	padding-top: 5px;
+}
+
+.body ul{
+	width: 100%;
+	font-family: arial;
+	font-weight: 400px;
+	font-size: 14px;
+}
+
+.body ul li{
+	width: 14.28%;
+	height: 35px;
+	line-height: 35px;
+	display: block;
+	box-sizing: border-box;
+	float: left;
+	text-align: center;
+}
+
+
+
+.weekday ul .rest{
+	color: #F43535;
+}
+
+.green{
+	color: #fff;
+	background-color: #FFA024; 
+}
+
+.red{
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
