@@ -1,0 +1,26 @@
+canvas{
+    display: block;
+    margin: 50px auto;
+    box-shadow: -2px -2px 2px #efefef, 5px 5px 5px #b9b9b9;
+}
+
+.menu{
+    width: 450px;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+}
+.menu span{
+    text-align: center;
+}
+.menu span{
+    display: inline-block;
+	font-size: 16px;
+    height: 25px;
+    width: 80px;
+    margin: 0 50px;
+    line-height: 25px;
+    color: #000;
+    border: 1.5px solid #000;
+    border-radius: 2px;
+}
