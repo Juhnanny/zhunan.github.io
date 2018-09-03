@@ -1,0 +1,104 @@
+body{
+	background: url(../images/bg.jpg);
+}
+
+ul, li{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.logo span{
+	font-size: 1.5em;
+	color: #703B22;
+	font-weight: 300;
+	letter-spacing: 0.05em;
+	font-family: fantasy;
+}
+
+.navbar{
+	background: url(../images/bg.jpg);
+}
+
+.example{
+	margin: 50px 0 40px 0;
+}
+
+.example img{
+	max-width: 100%;
+}
+
+.tab1 h3{
+	font-size: 2em;
+	font-weight: 200;
+	color: #82592D;
+	line-height: 2em;
+}
+
+.tab1 label{
+	font-size: 1em;
+	font-weight: 200;
+	color: #82592D;
+}
+
+.tab1 button{
+	background: #82592D;
+	color: #EABE44;
+	font-weight: 200;
+	letter-spacing: 0.05em;
+	margin-top: 20px;
+	float: right;
+}
+
+.tab1 button:hover{
+	background: #EABE44;
+	color: #fff;
+}
+
+.tab2 h3{
+	font-size: 2em;
+	font-weight: 200;
+	color: #82592D;
+	line-height: 2em;
+}
+
+.tab2 .contact-ways p{
+	font-size: 1em;
+	font-weight: 400;
+	color: #82592D;
+}
+
+.tab2 a{
+	color: #82592D;
+}
+
+.location-map{
+	height: 200px;
+}
+img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+
+@media(min-width: 992px){
+	.tab1 h3{
+		font-size: 2.3em;
+	}
+	.tab1 label{
+		font-size: 1em;
+	}
+	.tab2 h3{
+		font-size: 2.3em;
+	}
+}
+
+@media(min-width: 1200px){
+	.tab1 h3{
+		font-size: 2.5em;
+	}
+	.tab2 h3{
+		font-size: 2.3em;
+	}
+}

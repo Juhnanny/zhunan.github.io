@@ -1,0 +1,142 @@
+body{
+	background: url(../images/bg.jpg);
+}
+
+ul, li{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.logo span{
+	font-size: 1.5em;
+	color: #703B22;
+	font-weight: 300;
+	letter-spacing: 0.05em;
+	font-family: fantasy;
+}
+
+.navbar{
+	background: url(../images/bg.jpg);
+}
+
+.example{
+	margin: 50px 0 20px 0;
+}
+
+.example img{
+	max-width: 100%;
+}
+
+
+.tab1{
+	margin-bottom: 50px;
+}
+
+.tab1 h3{
+	font-size: 2em;
+	font-weight: 200;
+	color: #8F5222;
+	margin-bottom: 25px;
+}
+
+.tab1 h5{
+	font-size: 0.9em;
+	font-weight: 400;
+	line-height: 1.5em;
+	color: #EABE44;
+	margin-bottom: 10px;
+}
+
+.tab1 p{
+	font-size: 0.8em;
+	color: #82592D;
+	line-height: 1.8em;
+}
+
+.tab2 h4{
+	font-size: 2em;
+	font-weight: 200;
+	letter-spacing: 0.1em;
+	color: #82592D;
+	margin-bottom: 15px;
+}
+
+.price-list{
+	width: 90%;
+	margin: 0 auto 50px auto;
+}
+
+.tab2 .image{
+	margin-bottom: 15px;
+}
+
+.tab2 img{
+	width: 100%;
+}
+
+.tab2 li {
+	width: 100%;
+	height: 26px;
+	line-height: 26px;
+}
+
+.tab2  li a{
+	color: #82592D;
+	font-size: 1em;
+	font-weight: 350;
+	text-decoration: none;
+}
+
+.tab2 li a:hover{
+	color: #EABE44;
+}
+
+.price{
+	float: right;
+}
+
+@media(min-width: 992px){
+	.tab1 h3{
+		font-size: 2.2em;
+	}
+	.tab1 h5{
+		font-size: 1em;
+	}
+	.tab1 p{
+		font-size: 0.9em;
+	}
+	.tab2 h4{
+		font-size: 2.2em;
+	}
+	.tab2 li{
+		height: 28px;
+		line-height: 28px;
+	}
+	.tab li a{
+		font-size: 1.1em;
+	}
+}
+
+
+@media(min-width: 1200px){
+	.tab1 h3{
+		font-size: 2.5em;
+	}
+	.tab1 h5{
+		font-size: 1.2em;
+	}
+	.tab1 p{
+		font-size: 0.9em;
+	}
+	.tab2 h4{
+		font-size: 2.5em;
+	}
+	.tab2 li{
+		height: 30px;
+		line-height: 30px;
+	}
+	.tab li a{
+		font-size: 1.2em;
+	}
+}

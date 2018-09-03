@@ -1,0 +1,140 @@
+body{
+	background: url(../images/bg.jpg);
+}
+
+ul, li{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.logo span{
+	font-size: 1.5em;
+	color: #703B22;
+	font-weight: 300;
+	letter-spacing: 0.05em;
+	font-family: fantasy;
+}
+
+.navbar{
+	background: url(../images/bg.jpg);
+}
+
+.example{
+	margin: 50px 0 40px 0;
+}
+
+.example img{
+	max-width: 100%;
+}
+
+img{
+	max-width: 100%;
+}
+
+h3{
+	color: #82592D;
+	font-weight: 300;
+	font-size: 1.8em;
+}
+
+.parg1{
+	color: #EDC13F;
+	font-weight: 400;
+	font-size: 1em;
+}
+
+.parg2{
+	color: #82592D;
+	font-weight: 400;
+	font-size: 1em;
+	margin-bottom: 20px;
+}
+
+.service{
+	margin-bottom: 30px;
+}
+
+.service h4{
+	margin-top: 0; 
+	color: #82592D;
+	font-weight: 300;
+	font-size: 1.4em;
+	vertical-align: sub;
+}
+
+.service p{
+	color: #82592D;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.9em;
+}
+
+.offer h4{
+	font-size: 1.8em;
+	font-weight: 300;
+	color: #82592D;
+	margin: 30px 0 10px 0; 
+}
+
+.offer li{
+	font-size: 1em;
+	font-weight: 400;
+	color: #82592D;
+	margin-bottom: 15px;
+}
+
+
+@media(min-width: 992px){
+	h3{
+		font-size: 2.2em;
+	}
+	.parg1, .parg2{
+		font-size: 1.1em;
+	}
+	.servie h4{
+		font-size: 1.8em;
+	}
+	.service p{
+		font-size: 1em;
+	}
+	.offer h4{
+		font-size: 2em;
+	}
+}
+
+@media(min-width: 1200px){
+	h3{
+		font-size: 2.5em;
+	}
+	.parg1, .parg2{
+		font-size: 1.1em;
+	}
+	.servie h4{
+		font-size: 2.2em;
+	}
+	.service p{
+		font-size: 1em;
+	}
+	.offer h4{
+		font-size: 2.2em;
+	}
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
